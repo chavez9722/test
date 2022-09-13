@@ -13,22 +13,23 @@
 
     <form action="POST">
         <div>
-            <label for="">Nombre</label>
-            <input type="text">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
         </div>
         <div>
-            <label for="">Descipcion</label>
-            <input type="text" name="" id="">
+            <label for="description">Descipcion:</label>
         </div>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
         <div>
-            <label for="">Seleeciona</label>
-            <select name="" id="">
+            <label for="selection">Seleeciona:</label>
+            <select name="selection" id="">
                 <option value="valor1">valor1</option>
                 <option value="valor2">valor2</option>
                 <option value="valor3">valor3</option>
                 <option value="valor4">valor4</option>
             </select>
         </div>
+        <input type="submit" value="enviar">
     </form>
 
 </body>
